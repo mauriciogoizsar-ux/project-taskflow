@@ -1,3 +1,18 @@
+# TaskFlow - Tablero Kanban
+
+Aplicación web de gestión de tareas estilo Kanban construida con Angular 18+, TypeScript y Signals.
+
+## Stack Tecnológico
+- **Frontend:** Angular, TypeScript (Modo Estricto)
+- **Calidad de Código:** ESLint, Prettier, Husky, Conventional Commits
+
+## Cómo ejecutar el proyecto
+1. Instalar dependencias: `npm install`
+2. Iniciar el servidor local: `ng serve`
+3. Abrir en el navegador: `http://localhost:4200`
+
+---
+
 ## Modelo de Base de Datos / Entidades
 
 | Entidad | Campos principales | Relaciones |
