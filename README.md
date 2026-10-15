@@ -21,7 +21,8 @@ Aplicación web de gestión de tareas estilo Kanban construida con Angular 22, T
 
 - [x] Fase 0: Preparación y configuración inicial.
 - [ ] Fase 1: Tablero local (nivel 1).
-- [ ] Fase 2: Drag and drop y múltiples tableros.
+- [ ] Fase 2: Tarjetas y formularios.
+- [ ] Fase 3: Drag and drop y múltiples tableros.
 
 ---
 
@@ -37,7 +38,7 @@ erDiagram
     TABLERO ||--o{ INVITACION : recibe
     COLUMNA ||--o{ TARJETA : contiene
     TARJETA ||--o{ ETIQUETA : se_asigna
-    TARJETA ||--o{ ITEM_CHECKLIST : tiene
+    TARJETA }o--o{ ITEM_CHECKLIST : tiene
     TARJETA ||--o{ COMENTARIO : posee
     USUARIO ||--o{ COMENTARIO : escribe
 ```
