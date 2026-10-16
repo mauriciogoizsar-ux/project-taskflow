@@ -30,7 +30,6 @@ Aplicación web de gestión de tareas estilo Kanban construida con Angular 22, T
 
 ```mermaid
 erDiagram
-erDiagram
     USUARIO ||--o{ MIEMBRO : es
     TABLERO ||--o{ MIEMBRO : tiene
     TABLERO ||--o{ COLUMNA : tiene
